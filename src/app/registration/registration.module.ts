@@ -3,12 +3,13 @@ import { CommonModule } from '@angular/common';
 import { LandingpageComponent } from './pages/landingpage/landingpage.component';
 import { RouterModule } from '@angular/router';
 import {route} from './routes';
+import { AdminregistrationComponent } from './pages/adminregistration/adminregistration.component';
 
 @NgModule({
   imports: [
     CommonModule,
     RouterModule.forRoot(route)
   ],
-  declarations: [LandingpageComponent]
+  declarations: [LandingpageComponent, AdminregistrationComponent]
 })
 export class RegistrationModule { }
